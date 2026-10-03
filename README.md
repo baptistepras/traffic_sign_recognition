@@ -1,8 +1,11 @@
-# Traffic Sign Recognition using Machine Learning:
+# Traffic Sign Recognition
 
-This project realized during my first year of university successfully classified some traffic signs with a performance over 95%.
-I had to search for pictures, preprocess them, extract data and train some models on it.
+Classifies photos of traffic signs with hand-crafted image features and classical classifiers, with an accuracy above 95%.
 
-# Warning
+The work is documented step by step (in French): the dataset (`1_jeu_de_donnees.md`), its analysis (`2_analyse.md`), feature extraction (`3_extraction_d_attributs.md`) and the classifiers (`4_classificateurs.ipynb`). The cleaned images are in `clean_data/` and the extracted features in the CSV files.
 
-It might not be usable as it uses a personal library given by my teacher, that is not accessible here. But the project can still be looked at and used by copy/paste, and diaporoma.md is a good summary of it (in French).
+The notebooks rely on a utility library that is not included here, so they do not run as is. The code can still be read and reused.
+
+## License
+
+MIT, see [LICENSE](LICENSE). The sign images in `clean_data/` are not covered.
